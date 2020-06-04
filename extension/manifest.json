@@ -1,0 +1,13 @@
+{
+    "name": "Search Courses",
+    "version": "1.0",
+    "description": "Search Course offerings",
+    "content_scripts": [
+      {   
+          "js": ["contentScript.js"],
+          "matches": ["*://google.com/*"]
+        }
+      ],
+    "web_accessible_resources": ["searchScriptBundled.js"],
+    "manifest_version": 2
+  }
